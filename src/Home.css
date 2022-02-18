@@ -1,0 +1,63 @@
+/*  */
+
+  .Home-hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    z-index: -1;
+    background-image: url("https://media.istockphoto.com/photos/vending-machines-in-public-building-picture-id1315573608?k=20&m=1315573608&s=612x612&w=0&h=TO_DLsh0LTUfblaBcSCfr3cz5aGqLZUr26100jamKU4=");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 0 0 8px #66757f;
+    opacity: 0.7;
+  }
+
+  .Home-header {
+      color:rgb(106, 82, 129);
+      font-size: xx-large;
+      font-weight: bolder;
+  }
+
+  .Home-content-text {
+    color:rgb(106, 82, 129);
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  .Home-container {
+    background-color: lightgrey;
+    width: 150px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    bottom: 40px; right: 40px;
+  }
+
+  .Home-container li {
+      list-style-type:none ;
+      margin:0;
+      padding: 0;
+  }
+
+  .Home-container a{
+      position: relative;
+      color:rgb(1, 14, 4);
+      font-size: 28px;
+      text-decoration: none;
+      top: 50%;
+        width: 100%;
+    text-align: center;
+
+  }
+
+ 

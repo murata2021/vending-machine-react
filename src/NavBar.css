@@ -1,0 +1,15 @@
+.NavBar {
+
+    padding: 1.5rem;
+    background-color: rgb(155, 96, 155);
+
+}
+
+.NavBar a {
+
+    color:whitesmoke;
+}
+
+.NavBar a.active {
+    color:rgb(0, 255, 191);
+}
